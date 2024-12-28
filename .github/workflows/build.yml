@@ -1,0 +1,12 @@
+name: Java CI
+
+on: [ push ]
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Hello Zahra"
+      - name: multiline Command
+        run: |
+          java -v
