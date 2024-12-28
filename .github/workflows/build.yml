@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "Hello Zahra"
-      - name: multiline Command
-        run: |
-          java -version
+        run: echo "Hi Zahra"
+      - name: show java version
+        run: java -version
