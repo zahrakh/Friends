@@ -9,4 +9,4 @@ jobs:
         run: echo "Hello Zahra"
       - name: multiline Command
         run: |
-          java -v
+          java -version
