@@ -9,3 +9,5 @@ jobs:
         run: echo "Hi Zahra"
       - name: show java version
         run: java -version
+      - name: Error step
+        run: test error message
